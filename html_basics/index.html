@@ -11,9 +11,33 @@
         <h1>Our Menu</h1>
         <h2>Waffle</h2>
         <p>A tasty waffle is a crisp, golden-brown delight with a fluffy interior, perfect for topping with syrup, fruits, or whipped cream.</p>
+        <img src="waffle.jpeg" width="240" height="200" alt="A Waffle">
         <h2>Burger</h2>
         <p>A tasty burger is a juicy, flavorful patty nestled in a soft bun, layered with fresh toppings and savory condiments.</p>
+        <img src="burger.jpg" width="240" height="200" alt="A Burger">
         <a href="location.html">Our Location</a>
+
+        <style>
+            table,th,td {
+                border : 1px solid black;
+                border-collapse: collapse ;
+            }
+        </style>
+        
+        <table><!-- it creates table --> 
+            <tr>
+                <th>Dish</th> <!-- table header --> 
+                <th>Price</th>
+            </tr>
+            <tr> <!-- it creates a row --> 
+                <td>Waffle</td> <!-- it adds elements / columns to the row -->
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td>Burger</td>
+                <td>$15.00</td>
+            </tr>
+        </table>
     </body>
 
 </html>
