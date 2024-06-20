@@ -1,0 +1,40 @@
+h1{
+    color: purple;
+}
+
+#para {
+    text-align: center;
+}
+
+#secondhead{
+    color: gold;
+}
+
+#thirdhead{
+    color: green;
+    background-color: antiquewhite;
+}
+
+.parent {
+    border: 4px solid red;
+  }
+
+.child {
+    text-align:center;
+    width: 50%;
+    padding: 20px;
+    border: 4px solid blue;
+    margin: auto;
+}
+
+.child2 {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.child3 {
+    display: block;
+    float: right;
+  }
