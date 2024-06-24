@@ -114,4 +114,11 @@ console.log(car);
 car.turnTheKey();
 car.lightsOn()
 
+//functions can return objects
+function objectMaker(val) {
+    return {
+        prop: val
+    }
+}
 
+console.log(objectMaker(21));
